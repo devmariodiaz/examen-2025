@@ -11,3 +11,8 @@
 |  |  |  |
 |  |  |  |
 |  |  |  |
+
+
+```cpp
+regmatch_t regmatch[10];
+rc = ap_regexec(..., p->regexp->re_nsub + 1, regmatch, 0);
